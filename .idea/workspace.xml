@@ -1,17 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b78bde57-42f2-44dc-8d3b-c2902757adad" name="Default Changelist" comment="">
+    <list default="true" id="b78bde57-42f2-44dc-8d3b-c2902757adad" name="Default Changelist" comment="Springboot整合Redis案例">
       <change afterPath="$PROJECT_DIR$/../SSM/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/demo/bean/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/demo/controller/UserRedisController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/demo/dao/UserRedisDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/demo/service/UserRedisService.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../SSM/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../SSM/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../SSM/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../SSM/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../SSM/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../SSM/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../SpringBoot_DataJpa" beforeDir="false" afterPath="$PROJECT_DIR$/../SpringBoot_DataJpa" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringBoot_Redis.iml" beforeDir="false" afterPath="$PROJECT_DIR$/SpringBoot_Redis.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/demo/bean/User.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/demo/controller/UserRedisController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/demo/dao/UserRedisDao.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/demo/service/UserRedisService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/s.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/s.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/demo/bean/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/demo/bean/User.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/demo/controller/UserRedisController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/demo/dao/UserRedisDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/demo/dao/UserRedisDao.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/demo/service/UserRedisService.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,12 +34,13 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
@@ -75,6 +86,10 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Users\HZL\IdeaProjects\SpringBoot_Redis\src\main\java\com\example\demo\controller" />
+      <recent name="D:\Users\HZL\IdeaProjects\SpringBoot_Redis\src\main\java\com\example\demo\service" />
+      <recent name="D:\Users\HZL\IdeaProjects\SpringBoot_Redis\src\main\java\com\example\demo\dao" />
+      <recent name="D:\Users\HZL\IdeaProjects\SpringBoot_Redis\src\main\java\com\example\demo\bean" />
       <recent name="D:\Users\HZL\IdeaProjects\SpringBoot_Redis\src\main\webapp\WEB-INF\jsp" />
     </key>
   </component>
@@ -109,12 +124,24 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1576738924267</updated>
-      <workItem from="1576738933634" duration="5937000" />
+      <workItem from="1576738933634" duration="13155000" />
     </task>
+    <task id="LOCAL-00001" summary="Springboot整合Redis案例">
+      <created>1576745010558</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1576745010558</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Springboot整合Redis案例" />
+    <option name="LAST_COMMIT_MESSAGE" value="Springboot整合Redis案例" />
   </component>
   <component name="WindowStateProjectService">
     <state x="175" y="0" key="#Notifications" timestamp="1576739524518">
@@ -125,46 +152,58 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="410" y="262" key="#com.intellij.javaee.module.view.common.J2EE.J2EEDeploymentDescriptorLocationPanel.changeDDPath/0.0.1366.728@0.0.1366.728" timestamp="1576743426356" />
-    <state x="275" y="46" key="FileChooserDialogImpl" timestamp="1576744948342">
+    <state x="102" y="0" key="CommitChangelistDialog2" timestamp="1576745029179">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="275" y="46" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1576744948342" />
-    <state width="1313" height="241" key="GridCell.Tab.0.bottom" timestamp="1576744855679">
+    <state x="102" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1576745029179" />
+    <state x="275" y="46" key="FileChooserDialogImpl" timestamp="1576753909131">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1313" height="241" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1576744855679" />
-    <state width="1313" height="241" key="GridCell.Tab.0.center" timestamp="1576744855679">
+    <state x="275" y="46" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1576753909131" />
+    <state x="514" y="271" key="Github.Dialog.Accounts.Choose" timestamp="1576745078748">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1313" height="241" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1576744855679" />
-    <state width="1313" height="241" key="GridCell.Tab.0.left" timestamp="1576744855678">
+    <state x="514" y="271" key="Github.Dialog.Accounts.Choose/0.0.1366.728@0.0.1366.728" timestamp="1576745078748" />
+    <state width="1313" height="372" key="GridCell.Tab.0.bottom" timestamp="1576749312680">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1313" height="241" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1576744855678" />
-    <state width="1313" height="241" key="GridCell.Tab.0.right" timestamp="1576744855679">
+    <state width="1313" height="372" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1576749312680" />
+    <state width="1313" height="372" key="GridCell.Tab.0.center" timestamp="1576749312679">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1313" height="241" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1576744855679" />
-    <state width="1313" height="241" key="GridCell.Tab.1.bottom" timestamp="1576744855680">
+    <state width="1313" height="372" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1576749312679" />
+    <state width="1313" height="372" key="GridCell.Tab.0.left" timestamp="1576749312679">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1313" height="241" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1576744855680" />
-    <state width="1313" height="241" key="GridCell.Tab.1.center" timestamp="1576744855679">
+    <state width="1313" height="372" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1576749312679" />
+    <state width="1313" height="372" key="GridCell.Tab.0.right" timestamp="1576749312679">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1313" height="241" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1576744855679" />
-    <state width="1313" height="241" key="GridCell.Tab.1.left" timestamp="1576744855679">
+    <state width="1313" height="372" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1576749312679" />
+    <state width="1313" height="372" key="GridCell.Tab.1.bottom" timestamp="1576749312680">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1313" height="241" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1576744855679" />
-    <state width="1313" height="241" key="GridCell.Tab.1.right" timestamp="1576744855680">
+    <state width="1313" height="372" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1576749312680" />
+    <state width="1313" height="372" key="GridCell.Tab.1.center" timestamp="1576749312680">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1313" height="241" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1576744855680" />
+    <state width="1313" height="372" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1576749312680" />
+    <state width="1313" height="372" key="GridCell.Tab.1.left" timestamp="1576749312680">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1313" height="372" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1576749312680" />
+    <state width="1313" height="372" key="GridCell.Tab.1.right" timestamp="1576749312680">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1313" height="372" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1576749312680" />
     <state x="35" y="0" key="SettingsEditor" timestamp="1576743427942">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="35" y="0" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1576743427942" />
+    <state x="175" y="32" key="Vcs.Push.Dialog.v2" timestamp="1576745047674">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="175" y="32" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1576745047673" />
     <state x="262" y="-1" width="840" height="1034" key="search.everywhere.popup" timestamp="1576744569409">
       <screen x="0" y="0" width="1366" height="728" />
     </state>

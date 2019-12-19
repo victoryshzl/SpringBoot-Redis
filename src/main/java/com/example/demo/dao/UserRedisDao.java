@@ -11,7 +11,7 @@ import javax.annotation.Resource;
 
 /**
  * @author by HZL
- * @date 2019/12/19 15:19
+ * @date 2019/12/19 17:59
  * @description
  */
 
@@ -28,17 +28,17 @@ public class UserRedisDao {
     @Resource(name = "redisTemplate")
     ValueOperations<Object,Object> valOps;
 
-    public void stringRedisTemplate(){
-        valOpsStr.set("Hi","SpringBoot-Redis");
-    }
-    public String getStringByRedis(){
-        return valOpsStr.get("Hi");
+    public void stringRedisTemplateDemo(){
+        valOpsStr.set("HelloWorld","SpringBoot");
     }
 
+    public String getStringByRedis(){
+        return valOpsStr.get("HelloWorld");
+    }
     public void insertUserByRedis(User user){
         valOps.set(user.getUid(),user);
     }
     public User findUserByRedis(String uid){
-        return (User) valOps.get(uid);
+        return (User)valOps.get(uid);
     }
 }
